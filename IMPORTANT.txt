@@ -1,0 +1,3 @@
+add "denyinterfaces wlan0" to /etc/dhcpcd.conf
+( instead of step 6 on page )
+!!!

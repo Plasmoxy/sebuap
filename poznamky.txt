@@ -1,0 +1,9 @@
+-- Nastavenie linux AP od Seba Petrika --
+
+POZOR ZMENA :
+	-> v dhcpcd.conf treba dat iba denyinterfaces <routerinterface>
+	-> to kvoli tomu ze nejak to s originalom nefunguje a preto nechampe hostapd nech si zrobi vsetko sam ( a networkinterfaces samozrejme )
+
+- iptables je fakt super utilitka, da sa kludne preforwardovat aj eth0 alebo co chcete
+
+- dole je vpn na forwardovanie ( v hamachi je to ham0 )
